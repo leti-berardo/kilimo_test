@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>
+  {{ data.type === "rain" ? "Registrar lluvia" : "Registrar Riego" }}
+</h1>
+<div mat-dialog-content>
+  <mat-form-field
+    *ngIf="data.type === 'rain'; else irrigation"
+    appearance="fill"
+  >
+    <input matInput type="number" [(ngModel)]="data.rain"
+  /></mat-form-field>
+  <ng-template #irrigation>
+    <mat-form-field appearance="fill">
+      <input matInput type="number" [(ngModel)]="data.irrigation"
+    /></mat-form-field>
+  </ng-template>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button cdkFocusInitial [mat-dialog-close]="data">Guardar</button>
+</div>

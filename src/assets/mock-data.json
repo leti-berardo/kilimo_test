@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "A1",
+            "farm_name": "Los cuervos",
+            "crop": "Maiz",
+            "water_per_week": "10.100",
+            "rains": [],
+            "irrigations": []
+        },
+        {
+            "id": 2,
+            "name": "A2",
+            "farm_name": "Los cuervos",
+            "crop": "Trigo",
+            "water_per_week": "5.100",
+            "rains": [],
+            "irrigations": []
+        },
+        {
+          "id": 3,
+          "name": "A2",
+          "farm_name": "Los cuervos",
+          "crop": "Trigo",
+          "water_per_week": "5.100",
+          "rains": [],
+          "irrigations": []
+      },
+      {
+        "id": 4,
+        "name": "A2",
+        "farm_name": "Los cuervos",
+        "crop": "Trigo",
+        "water_per_week": "5.100",
+        "rains": [],
+        "irrigations": []
+    },
+    {
+      "id": 5,
+      "name": "A2",
+      "farm_name": "Los cuervos",
+      "crop": "Trigo",
+      "water_per_week": "5.100",
+      "rains": [],
+      "irrigations": []
+  }
+    ]
+}
