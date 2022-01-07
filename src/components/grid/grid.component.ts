@@ -106,7 +106,7 @@ export class GridComponent implements OnInit {
     } else {
       this.arrayData = this.arrayData.map((lote: any) => {
         if (lote.id === newData.farmId) {
-          lote.rains.push(newData.irrigations);
+          lote.irrigations.push(newData.irrigation);
         }
         return lote;
       });
